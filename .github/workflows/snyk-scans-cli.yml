@@ -76,4 +76,3 @@ jobs:
       run: |   
         snyk auth ${{ secrets.SNYK_TOKEN }}
         snyk iac test --report
- 
